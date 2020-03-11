@@ -50,6 +50,6 @@ io.on('connection', (socket) => {
 })
 
 app.use(router)
-app.use(cors())``
+app.use(cors())
 
 server.listen(PORT, () => console.log(`server is started on port ${PORT}`))
